@@ -1,0 +1,222 @@
+.header {
+    background-color: rgb(236, 137, 87)06, 104);
+    color: aliceblue;
+    max-width: 100%;
+    margin: 0px;
+    margin-bottom: 32px;
+
+}
+
+.headerlogo {
+    max-width: 130px;
+    padding: 20px;
+    padding-bottom: 22px;
+    padding-left: 51px;
+    margin-right: auto;
+}
+
+body {
+    background: linear-gradient(#e7976f,#7d7777,rgba(167, 158, 149, 0.89));
+
+    height: 200%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0px;
+}
+
+.cntr {
+    margin: auto;
+    max-width: fit-content;
+
+}
+
+.card {
+    background: linear-gradient(#b5b1b1,#7d7777,rgba(43, 43, 42, 0.89));
+    color: aliceblue;
+    padding: 32px;
+    border-radius: 16px;
+    max-width: 670px;
+}
+
+.cardheader {
+
+    font-size: 30px;
+    padding: 48px 0px;
+
+}
+
+.btn {
+    border-color: rgba(240, 248, 255, 0.418);
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    align-content: center;
+    max-width: 285px;
+
+}
+
+.btnlogo {
+    max-width: 20px;
+    padding-right: 10px;
+    align-self: self-start;
+    margin: auto;
+}
+
+.btn:hover {
+    border-color: rgb(240, 248, 255);
+}
+
+.btn-content {
+    margin: auto;
+    max-width: 270px;
+    text-align: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    display: inline;
+
+
+}
+
+.spacer {
+    color: #222222;
+    margin: 32px auto;
+}
+
+.font1 {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.part2 {
+    margin-left: 194px;
+
+}
+
+.inputt {
+    appearance: none;
+    background-image: none;
+    border: 0px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    transition: box-shadow 0.1s ease-in-out 0s, color 0.1s ease-in-out 0s;
+    inline-size: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+    border-radius: var(--border-radius-md, 4px);
+    padding-inline: 14px;
+    padding-block-start: var(--spacer--2, 8px);
+    padding-block-end: var(--spacer--2, 8px);
+    min-block-size: var(--control-size-md, 48px);
+    background-color: var(--background-base, #111111);
+    box-shadow: inset 0 0 0 1px var(--essential-subdued, #b8b8b8);
+    color: var(--text-base, #ffffff);
+    width: 320px;
+    margin: auto;
+}
+
+.cntrleft {
+    margin-left: 180px;
+}
+
+.formfont {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+
+/* toogle ______________________________________________________________*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f1f1f;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(0, 0, 0);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: rgb(215, 128, 70);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px rgb(236, 144, 16);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.logbtn {
+    background-color: rgb(240, 181, 71);
+    border-radius: 150px;
+    padding: 10px 30px;
+    align-content: center;
+    max-width: 200px;
+    color: #000000;
+}
+
+.inline {
+    display: inline;
+}
+
+.logbtn:hover {
+    padding: 13px 33px;
+}
+
+.forgot {
+    color: white;
+}
+
+.forgot:hover {
+    color: rgb(228, 175, 59);
+}
+
+.end {
+    font-size: 10px;
+    color: rgb(179, 179, 179);
+}
